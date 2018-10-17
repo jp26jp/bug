@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.clearfix, .clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main {
+  overflow-x: hidden;
+}
